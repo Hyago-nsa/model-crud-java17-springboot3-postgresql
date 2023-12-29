@@ -1,5 +1,8 @@
 package com.example.springboot.repositories;
 
+import org.springframework.stereotype.Repository;
+
+public interface ProductRepository {
 import com.example.springboot.models.ProductModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
